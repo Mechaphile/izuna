@@ -8,7 +8,7 @@ export class FeedCommand extends Command {
         super(context, {
             ...options,
             name: "feed",
-            aliases: ["makan"],
+            aliases: ["makan", "dahar"]
             description: "Feeds Sugar donut or roti yoland or whiskas.",
         });
     }
